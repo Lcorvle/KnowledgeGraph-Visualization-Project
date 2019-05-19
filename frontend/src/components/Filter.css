@@ -1,0 +1,72 @@
+#rule-svg {
+    width: 100%;
+}
+
+.menu-rect {
+    stroke: rgb(44, 69, 103);
+    fill-opacity: 1;
+    stroke-width: 1;
+}
+
+.menu-text {
+    dominant-baseline: middle;
+    text-anchor: middle;
+    user-select: none;
+    stroke: rgb(44, 69, 103);
+    font-size: 16px;
+}
+
+.node-rect {
+    fill: rgb(216, 228, 238);
+    stroke: rgb(44, 69, 103);
+    stroke-width: 1;
+    opacity: 0.3;
+}
+
+.node-text {
+    dominant-baseline: middle;
+    text-anchor: middle;
+    user-select: none;
+    stroke: rgb(44, 69, 103);
+    font-size: 16px;
+}
+
+.edge-text {
+    stroke: rgb(44, 69, 103);
+    dominant-baseline: middle;
+    text-anchor: middle;
+    user-select: none;
+    font-size: 14px;
+}
+
+.edge-path {
+    stroke: rgb(235, 235, 235);
+    stroke-width: 5px;
+    fill: none;
+    opacity: 0.7;
+}
+
+.map {
+    stroke-width: 1px;
+    stroke: rgb(235, 235, 235);
+}
+
+.split-line {
+    opacity: 0.7;
+    fill: rgb(185, 185, 185);
+}
+
+@keyframes menu-focus {
+      0%{	stroke: #DDDDDD; stroke-width: 1px;}
+    100%{	stroke: #000000; stroke-width: 3px;}
+}
+
+.menu-rect:hover {
+    -webkit-animation: menu-focus .1s ease forwards;
+    animation: menu-focus .1s ease forwards;
+}
+
+.node-rect:hover {
+    -webkit-animation: menu-focus .1s ease forwards;
+    animation: menu-focus .1s ease forwards;
+}

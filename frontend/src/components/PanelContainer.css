@@ -1,0 +1,45 @@
+.-my-panel {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  /*position: absolute;
+  left: 0px;*/
+  text-align: left;
+}
+
+.-my-panel-heading {
+  color: white;
+  background-color: grey;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 8px 8px 0 0;
+  font-size: 20px;
+}
+
+.question-sign {
+  color: white;
+  font-size: 16px;
+}
+
+.-my-panel-seg {
+  margin: 0;
+  color: grey;
+  border: 0;
+  border-top: 1.5px solid grey;
+}
+
+.panel-popover-trigger {
+  font-size: 16px;
+}
+
+.nav-pills {
+  border-bottom: 1px solid #ddd;
+}
+
+/*
+.tab-content {
+  height:inherit;
+}
+
+.tab-pane {
+  height: inherit;
+}*/

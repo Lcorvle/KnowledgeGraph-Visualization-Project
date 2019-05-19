@@ -1,0 +1,10 @@
+.map-path {
+  cursor: pointer;
+  stroke-width: 1px;
+}
+
+.map-path:hover {
+  fill: rgb(253, 192, 134);
+  stroke-width: 2px;
+}
+

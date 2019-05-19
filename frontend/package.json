@@ -1,0 +1,35 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bootstrap": "^3.3.7",
+    "d3": "^5.7.0",
+    "dagre": "^0.8.4",
+    "react": "^16.6.3",
+    "react-bootstrap": "^0.32.4",
+    "react-dom": "^16.6.3",
+    "react-scripts": "2.1.1",
+    "text-height": "^1.0.2",
+    "text-width": "^1.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "prebuild": "del ..\\backend\\templates\\index.html && rd /s/q ..\\backend\\static\\build",
+    "build": "react-scripts build",
+    "postbuild": "move build\\index.html ..\\backend\\templates\\ &&  move build ..\\backend\\static\\ ",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "homepage": "/backend/static/build"
+}
